@@ -1,0 +1,112 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+}
+
+
+.int-up{
+    display: flex;
+    position: relative;
+    margin: 15px 10px;
+    padding: 10px 20px;
+    
+}
+input .int-up .submit{
+    display: none;
+}
+label{
+    border: none;
+    height: 50px;
+    width: 100px;
+    margin: 30px 0;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 15px;
+    transition: .5s;
+    cursor: pointer;
+    background: #1abc9c;
+    color:#fafafa;
+  
+}
+header{
+    background-color: #1abc9c;
+    padding:5px;
+    font-size: 20px;
+    color: white;
+}
+.h-ftp{
+    text-align: center;
+}
+
+
+article{
+    position: absolute;
+    float: right;
+    left: 55%;
+    bottom: 35%;
+    margin: 10px 10px;
+    padding:0 30px;
+    width: 27%;
+    height: 175px;  
+    background-color: #1abc9c4f;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #1abc9c00;
+    font-size: 15px;
+    color: #fafafa  ;
+     
+}
+nav {
+    background-color: #1abc9c4f;
+    margin:0 10px;
+    padding:0 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 75vh;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 15px;
+
+    }
+
+a{
+    position: relative;
+    border: none;
+    margin:10px 0;
+    padding: 0 5px ;
+    font-size: 15px;
+    outline: none;
+    border-radius: 15px;
+    transition: .5s;
+    cursor: pointer;
+    color:#ffffff;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+
+ul{
+    padding: 0 10px;
+    list-style: none;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #ffffff;
+ 
+  }
+span{
+ 
+    font-size: 16px;
+    color: #fafafa;
+   
+  }
+p{
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
